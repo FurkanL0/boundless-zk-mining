@@ -213,13 +213,13 @@ source ~/.bashrc
 ```
 
 
-## Base Sepolia : 
+## Base  : 
 
-- Base Sepolia RPC İçin : https://dashboard.blockpi.io/rpc/endpoint
+- Base RPC İçin :
 
 
 ```bash
-nano .env.base-sepolia
+nano .env.base
 ```
 
 - export PRIVATE_KEY=   Buraya cüzdan private keyiniz
@@ -230,18 +230,15 @@ nano .env.base-sepolia
 
 - Inject : 
 ```bash
-source .env.base-sepolia
+source .env.base
 ```
 #### Stake : 
 
-- Ethereum Sepoliadan Base Sepoli'ya Bridge İçin : 
-- 1 : https://testnet.brid.gg/base-sepolia?amount=&originChainId=11155111&token=ETH
-- 2 : https://testnets.relay.link/bridge/base-sepolia?fromChainId=11155111
+- Base Mainnet ETH Gerekiyor. 
 
-- USDC Faucet : 
+- USDC : 
 
-- Base Chain - USDC - Minimum 5 USDC : https://faucet.circle.com/
-- Ağlardan Base Sepolia seçmeyi unutmayın
+- Base Mainnet USDC Gerekiyor.
 
 ```bash
 boundless account deposit-stake 5
