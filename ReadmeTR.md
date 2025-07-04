@@ -255,7 +255,7 @@ boundless account deposit 0.0001
 
 ## Başlatma : 
 ```bash
-just broker up ./.env.base-sepolia
+just broker up ./.env.base
 ```
 
 ![wos](https://github.com/user-attachments/assets/744e92bb-5b99-4e6f-bd88-4bd45d760faa)
