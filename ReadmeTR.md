@@ -278,7 +278,7 @@ docker compose logs -fn 100
 
 - Durdurmak İçin : 
 ```bash
-just broker down ./.env.base-sepolia
+just broker down ./.env.base
 ```
 - Dashboard : https://explorer.beboundless.xyz/orders
 - Guild : https://guild.xyz/boundless-xyz#!
