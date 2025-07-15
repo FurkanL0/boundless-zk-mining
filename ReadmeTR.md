@@ -183,7 +183,7 @@ bash ./scripts/setup.sh
 
 #### Bento_CLI Indirelim : 
 ```bash
-cargo install --git https://github.com/risc0/risc0 bento-client --bin bento_cli
+cargo install --locked --git https://github.com/risc0/risc0 bento-client --branch release-2.1 --bin bento_cli
 ```
 ```bash
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
