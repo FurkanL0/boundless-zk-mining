@@ -223,7 +223,7 @@ nano .env.base
 ```
 
 - export PRIVATE_KEY=   Buraya cüzdan private keyiniz
-- Add export RPC_URL=""  2 Tırnak arasına base sepolia rpc'niz.
+- export RPC_URL=""  2 Tırnak arasına base sepolia rpc'niz.
 
 ![image](https://github.com/user-attachments/assets/7a6027d2-15b3-4611-b7e3-ec3c707f9a15)
 
